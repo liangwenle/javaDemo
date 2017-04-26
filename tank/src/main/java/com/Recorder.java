@@ -1,4 +1,4 @@
-package test4;
+package com;
 
 import java.io.*;
 import java.util.Vector;
@@ -30,7 +30,6 @@ class Recorder {
     public Vector<Node> getNodesAndEnNums() {
 
         try {
-            System.out.println(System.getProperty("user.dir"));
             fr = new FileReader(myRecording);
             br = new BufferedReader(fr);
             String n = "";

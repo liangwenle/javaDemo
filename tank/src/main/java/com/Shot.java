@@ -1,4 +1,4 @@
-package test4;
+package com;
 
 /**
  * Created by wenle on 15-9-6.

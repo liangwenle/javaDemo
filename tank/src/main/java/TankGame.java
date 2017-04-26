@@ -22,13 +22,10 @@
  * 11网络大战
  *
  */
-package test4;
-
+package com;
 import javax.swing.*;
-
 import java.awt.event.*;
-
-public class TankGame4 extends JFrame implements ActionListener {
+public class TankGame extends JFrame implements ActionListener {
     // 添加部件
     MyPanel mp = null;
     MyStarPanle msp = null;
@@ -46,12 +43,12 @@ public class TankGame4 extends JFrame implements ActionListener {
 
     public static void main(String[] args) {
 
-        TankGame4 tg = new TankGame4();
+        TankGame tg = new TankGame();
 
     }
 
     // 构造函数
-    public TankGame4() {
+    public TankGame() {
 
         // 创建菜单及菜单选项
         jmb = new JMenuBar();
